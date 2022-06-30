@@ -1,0 +1,59 @@
+.main-container{
+    /* border: 2px solid green; */
+    margin: 2rem 2rem 2rem 0;
+}
+h2,h3{
+    text-align: center;
+    color: rgb(90, 90, 90);
+}
+h2, h3, h4, h5{
+    color: hsl(233, 8%, 62%);
+    padding-top: .8rem;
+}
+
+h4, h5{
+    margin-left: 2rem;
+}
+.hotels, .shops, .food, .hotels>div, .shops>div, .food>div{
+    /* border: 1px solid red; */
+    margin-bottom: 1.5rem;
+}
+
+
+p{
+    text-align: center;
+    margin-top: .7rem;
+    font-weight: 500;
+    color: rgba(77, 82, 128, .8);
+}
+
+p:hover{
+    color: rgba(65, 69, 108, 1);
+}
+
+
+.innerdiv{
+    width: 320px;
+    height: 260px;
+    background-color: lightblue;
+    border-radius: 1rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.innerdiv:hover{
+    transition: all .2s linear;
+    transform: scale(1.03);
+}
+
+.divimg{
+    height: 80%;
+    border-radius: .5rem;
+}
+
+.divimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}

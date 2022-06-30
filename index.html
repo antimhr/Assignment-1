@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Assignment - 1</title>
+
+</head>
+
+<body>
+<div class="navbar" style="margin-bottom: 1rem">
+    <nav id="menu">
+        <ul style="width: 92vw; z-index: 1;">
+            <li><a href="#">ABC Company</a>
+            <li><a href="aboutus.html">About us</a>
+            <li><a href="services.html">Services</a>
+                <ul>
+                    <li><a href="services.html#hotel">Hotel</a>
+                        <ul>
+                            <li><a href="services.html#mumbai">Hotel in mumbai</a>
+                            </li>
+                            <li><a href="services.html#delhi">Hotel in Delhi</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="services.html#shop">Shops</a>
+                        <ul>
+                            <li><a href="services.html#mall">in Mall</a>
+                            </li>
+                            <li><a href="services.html#complex">in Complex</a>
+                                <ul>
+                                    <li><a href="services.html#twostorey">in 2 storey complex</a></li>
+                                    <li><a href="services.html#threestorey">in 3 storey complex</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="services.html#food">Food</a>
+                        <ul>
+                            <li><a href="services.html#junk">Junk Food</a></li>
+                            <li><a href="services.html#fast">Fast Food</a></li>
+                            <li><a href="services.html#healthy">Healthy Food</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="#contactus">Contact us</a>
+        </ul>
+    </nav>
+</div>
+
+
+    <!-- Carousel -->
+
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="width: 92vw">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://images.unsplash.com/photo-1590447158019-883d8d5f8bc7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80" width='900' height='400' class="d-block" alt="hotels" style="margin-left: auto; margin-right: auto;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: white;">First slide label</h5>
+              <p style="color: white;">Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://images.unsplash.com/photo-1567958451986-2de427a4a0be?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8c2hvcHBpbmclMjBtYWxsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60" width='900' height='400' class="d-block" alt="hotels" style="margin-left: auto; margin-right: auto;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: white; text-shadow: 1px 1px rgb(217, 217, 217);">Second slide label</h5>
+              <p style="color: white; text-shadow: 1px 2px grey;">Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://thumbs.dreamstime.com/b/subway-fast-food-restaurant-toronto-ontario-canada-58027786.jpg" width='900' height='400' class="d-block" alt="hotels" style="margin-left: auto; margin-right: auto;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5 style="color: white;">Third slide label</h5>
+              <p style="color: white;">Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <br><br>
+    <br>
+    <hr width="95%">
+    <br>
+    <br>
+    <!-- About Us section -->
+
+    <section id="contactus" style="width: 90vw; text-align: center;">
+
+            <h3 style="text-transform: uppercase; font-size: 28px; color: grey;">Contact Us</h3>
+            <button style="padding: .3rem 1.2rem; margin-right: .5rem; border: 1px solid grey;">Drop an Email</button>
+            <button style="padding: .3rem 1.2rem; border: 1px solid grey;">Call us</button>
+            <br><br>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis necessitatibus quae natus placeat
+                quia repellendus minus, eum amet aspernatur magnam vel impedit tenetur, dolorum itaque atque iure
+                corporis facilis illum!
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis necessitatibus quae natus placeat
+                quia repellendus minus, eum amet aspernatur magnam vel impedit tenetur, dolorum itaque atque iure
+                corporis facilis illum!</p>
+
+
+    </section>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
